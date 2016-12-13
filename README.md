@@ -7,6 +7,7 @@ It is packaged and deployed using Webpack.
 ## Installation
 1.	Clone repo.
 2.	Run `npm install`
+
 ## Usage
 1.	Run `npm run start`
 2.	Browse to `localhost:8080`
