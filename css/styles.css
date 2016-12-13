@@ -1,0 +1,58 @@
+.list li {
+  border-bottom: 1px solid #ccc;
+  display: table;
+  border-collapse: collapse;
+  width: 100%;
+  min-height: 8em;
+}
+.inner {
+  display: table-row;
+  overflow: hidden;
+}
+.li-img {
+  display: table-cell;
+  vertical-align: middle;
+  width: 30%;
+  padding-right: 0.5em;
+}
+.li-img img {
+  display: block;
+  height: 5em;
+  width: auto;
+  -webkit-filter: grayscale(100%); /* Safari 6.0 - 9.0 */
+  filter: grayscale(100%);
+}
+.li-text {
+  display: table-cell;
+  vertical-align: middle;
+  width: 70%;
+  padding-right: 1em;
+}
+.li-title {
+  margin: 0;
+}
+.li-desc {
+  margin: 0;
+}
+.li-authors {
+  margin: 0;
+}
+
+@media screen and (min-width: 40em) {
+  .list li {
+    background: none;
+  }
+  .li-summary {
+    display: block;
+  }
+}
+
+@media screen and (min-width: 60em) {
+  .list li {
+    float: left;
+    width: 50%;
+  }
+  .inner {
+    padding-right: 1em;
+  }
+}
