@@ -24,6 +24,6 @@ let format = ( book ) => {
 };
 
 // Get books and format response
-getBooks('banking').then((books) => {
+getBooks('javascript').then((books) => {
   list.innerHTML = books.map( format ).join('');
 });
