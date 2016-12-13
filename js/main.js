@@ -12,7 +12,7 @@ let format = ( book ) => {
     `<li>
       <div class="inner">
   		  <div class="li-img">
-  			  <img src="${book.thumbnail}" alt="${book.title} thumnail image" />
+  			  <img src="${book.thumbnail}" alt="thumbnail image" />
   			</div>
   			<div class="li-text">
   			  <h4 class="li-title">${book.title}</h4>

@@ -41,8 +41,12 @@ export default function getBooks(phrase) {
 function transformData(data) {
   return data.map((item) => {
     const { title, authors, description, imageLinks } = item.volumeInfo;
-    const { thumbnail } = imageLinks;
-
+    // Check if thumbnail exists
+    let thumbnail;
+    if (imageLinks) {
+      thumbnail = imageLinks.thumbnail;
+    }
+    // Concatenate authors if they are present
     if (authors) {
       authors.join(', ');
     }
