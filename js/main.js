@@ -8,11 +8,14 @@ let list = document.querySelector ('.js-book-list');
 
 // Set up formatting callback function for map call below
 let format = ( book ) => {
+
+  const thumbnail = book.thumbnail ? `<img src="${book.thumbnail}" alt="thumbnail image" />` : '';
+
   return (
     `<li>
       <div class="inner">
   		  <div class="li-img">
-  			  <img src="${book.thumbnail}" alt="thumbnail image" />
+  			  ${thumbnail}
   			</div>
   			<div class="li-text">
   			  <h4 class="li-title">${book.title}</h4>
