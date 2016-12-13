@@ -10,7 +10,8 @@ It is packaged and deployed using Webpack.
 
 ## Usage
 1.	Run `npm run start`
-2.	Browse to `localhost:8080`
+2.  Navigate to moonpig-challenge folder.
+3.	Browse to `localhost:8080`
 
 ## Credits
 1.	Responsive list with thumbnails - Brad Frost - http://codepen.io/bradfrost/pen/ykalp
