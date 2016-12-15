@@ -1,6 +1,6 @@
 'use strict'
 
-import getBooks from './GoogleApi';
+import getBooks from './google-api';
 import { truncate, isEmpty } from  './utils/utils';
 import styles from '../css/styles.css'
 
