@@ -5,7 +5,7 @@
   "author": "Martin Perceval <martin.perceval@gmail.com>",
   "scripts": {
     "start": "webpack-dev-server --progress --colors --content-base build/",
-    "test": "mocha test"
+    "test": "mocha --compilers js:babel-core/register test/*.js"
   },
   "devDependencies": {
     "babel-core": "^6.20.0",

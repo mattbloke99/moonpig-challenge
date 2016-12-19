@@ -8,9 +8,7 @@ let list = document.querySelector ('.js-book-list');
 
 // Set up formatting callback function for map call below
 let format = ( book ) => {
-
   const thumbnail = book.thumbnail ? `<img src="${book.thumbnail}" alt="thumbnail image" />` : '';
-
   return (
     `<li>
       <div class="inner">

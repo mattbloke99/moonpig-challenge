@@ -19,7 +19,6 @@ module.exports = {
         ],
         test: /\.js$/,
         query: {
-      //    plugins: ['transform-runtime'],
           presets: ['es2015'],
         }
       },
